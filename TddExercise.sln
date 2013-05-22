@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest", "UnitTest\UnitTest.vcxproj", "{A02AFB2A-2164-4079-A4D9-EA953658EC3C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{451D8195-DFDA-4F82-B30D-8019DA6CA57E} = {451D8195-DFDA-4F82-B30D-8019DA6CA57E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "cal", "cal\cal.vcxproj", "{451D8195-DFDA-4F82-B30D-8019DA6CA57E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A02AFB2A-2164-4079-A4D9-EA953658EC3C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A02AFB2A-2164-4079-A4D9-EA953658EC3C}.Debug|Win32.Build.0 = Debug|Win32
+		{A02AFB2A-2164-4079-A4D9-EA953658EC3C}.Release|Win32.ActiveCfg = Release|Win32
+		{A02AFB2A-2164-4079-A4D9-EA953658EC3C}.Release|Win32.Build.0 = Release|Win32
+		{451D8195-DFDA-4F82-B30D-8019DA6CA57E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{451D8195-DFDA-4F82-B30D-8019DA6CA57E}.Debug|Win32.Build.0 = Debug|Win32
+		{451D8195-DFDA-4F82-B30D-8019DA6CA57E}.Release|Win32.ActiveCfg = Release|Win32
+		{451D8195-DFDA-4F82-B30D-8019DA6CA57E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
